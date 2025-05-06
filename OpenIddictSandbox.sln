@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenIddictSandbox.Server", "OpenIddictSandbox.Server\OpenIddictSandbox.Server.csproj", "{D3260908-9C84-4E3E-8888-8A59AC956745}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3260908-9C84-4E3E-8888-8A59AC956745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3260908-9C84-4E3E-8888-8A59AC956745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3260908-9C84-4E3E-8888-8A59AC956745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3260908-9C84-4E3E-8888-8A59AC956745}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43EA0372-DF0D-4457-B019-C2A2643106EF}
+	EndGlobalSection
+EndGlobal
