@@ -4,6 +4,8 @@ VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenIddictSandbox.Server", "OpenIddictSandbox.Server\OpenIddictSandbox.Server.csproj", "{D3260908-9C84-4E3E-8888-8A59AC956745}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenIddictSandbox.WebApi", "OpenIddictSandbox.WebApi\OpenIddictSandbox.WebApi.csproj", "{B4E92769-56C6-C6F0-4B1A-6CB71D9A1DBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,10 @@ Global
 		{D3260908-9C84-4E3E-8888-8A59AC956745}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3260908-9C84-4E3E-8888-8A59AC956745}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3260908-9C84-4E3E-8888-8A59AC956745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E92769-56C6-C6F0-4B1A-6CB71D9A1DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E92769-56C6-C6F0-4B1A-6CB71D9A1DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E92769-56C6-C6F0-4B1A-6CB71D9A1DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E92769-56C6-C6F0-4B1A-6CB71D9A1DBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

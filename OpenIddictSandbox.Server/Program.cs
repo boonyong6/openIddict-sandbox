@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using OpenIddictSandbox.Server;
 using OpenIddictSandbox.Server.Data;
 
@@ -34,9 +35,15 @@ builder.Services.AddOpenIddict()
         // Enable the client credentials flow.
         options.AllowClientCredentialsFlow();
 
-        // Register the signing and encryption credentials.
-        options.AddDevelopmentEncryptionCertificate()
-            .AddDevelopmentSigningCertificate();
+        // Register the encryption credentials. This sample uses a symmetric 
+        // encryption key that is shared between the server and the API project.
+        //
+        // Note: In a real world application, this encryption key should be
+        // stored in a safe place (e.g in Azure KeyVault, stored as a secret).
+        options.AddEncryptionKey(new SymmetricSecurityKey(
+            Convert.FromBase64String("DRjd/GnduI3Efzen9V9BvbNUfc/VKgXltV7Kbk9sMkY=")));
+
+        options.AddDevelopmentSigningCertificate();
 
         // Register the ASP.NET Core host and configure the ASP.NET Core options.
         options.UseAspNetCore()

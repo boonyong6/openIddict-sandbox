@@ -1,0 +1,6 @@
+@OpenIddictSandbox.WebApi_HostAddress = http://localhost:5038
+
+GET {{OpenIddictSandbox.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
