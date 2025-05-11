@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using OpenIddictSandbox.Server;
-using OpenIddictSandbox.Server.Data;
+using OpenIddictSandbox.DataContext;
 
 var builder = WebApplication.CreateBuilder(args);
 

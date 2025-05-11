@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenIddictSandbox.Server", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenIddictSandbox.WebApi", "OpenIddictSandbox.WebApi\OpenIddictSandbox.WebApi.csproj", "{B4E92769-56C6-C6F0-4B1A-6CB71D9A1DBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenIddictSandbox.DataContext", "OpenIddictSandbox.DataContext\OpenIddictSandbox.DataContext.csproj", "{A0550265-287D-4210-99AB-512DDC951A16}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{B4E92769-56C6-C6F0-4B1A-6CB71D9A1DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4E92769-56C6-C6F0-4B1A-6CB71D9A1DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4E92769-56C6-C6F0-4B1A-6CB71D9A1DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0550265-287D-4210-99AB-512DDC951A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0550265-287D-4210-99AB-512DDC951A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0550265-287D-4210-99AB-512DDC951A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0550265-287D-4210-99AB-512DDC951A16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

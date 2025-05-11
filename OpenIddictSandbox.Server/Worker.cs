@@ -1,5 +1,5 @@
 ﻿using OpenIddict.Abstractions;
-using OpenIddictSandbox.Server.Data;
+using OpenIddictSandbox.DataContext;
 using static OpenIddict.Abstractions.OpenIddictConstants;
 
 namespace OpenIddictSandbox.Server;
