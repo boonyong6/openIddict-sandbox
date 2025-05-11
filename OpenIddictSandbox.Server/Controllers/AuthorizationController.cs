@@ -41,8 +41,9 @@ public class AuthorizationController : Controller
                 TokenValidationParameters.DefaultAuthenticationType, Claims.Name, Claims.Role);
 
             // Use the client_id as the subject identifier.
-            identity.SetClaim(Claims.Subject, await _applicationManager.GetClientIdAsync(application));
+            identity.SetClaim(Claims.Subject, $"client:{await _applicationManager.GetClientIdAsync(application)}");
             identity.SetClaim(Claims.Name, await  _applicationManager.GetDisplayNameAsync(application));
+            identity.SetClaim(Claims.Scope, request.Scope);
 
             identity.SetDestinations(static claim => claim.Type switch
             {
