@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace OpenIddictSandbox.Server.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class CreateOpenIddictEntities : Migration
+    public partial class CreateOpenIddictSchema : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
